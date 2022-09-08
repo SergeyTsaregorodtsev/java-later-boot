@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ba3bc4-0d23-404f-af69-6a6dff586836" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/item/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/later/user/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Git/java-later-boot/src/main/java/ru/practicum/later&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Git/java-later-boot/src/main/java/ru/practicum/later",
+    "spring.configuration.checksum": "b2fc9e657dc8cac5a0681c1e47743492"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.practicum.later" />
@@ -71,6 +72,7 @@
       <updated>1662643087950</updated>
       <workItem from="1662643090410" duration="5217000" />
       <workItem from="1662656144266" duration="1689000" />
+      <workItem from="1662661651073" duration="2175000" />
     </task>
     <servers />
   </component>

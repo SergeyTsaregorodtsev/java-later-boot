@@ -1,12 +1,7 @@
 package ru.practicum.later.item;
 
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-interface ItemRepository {
+interface ItemRepository extends JpaRepository<Item, Long> {
 
-    List<Item> findByUserId(long userId);
-
-    Item save(long userId, Item item);
-
-    void deleteByUserIdAndItemId(long userId, long itemId);
 }

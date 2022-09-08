@@ -7,18 +7,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
-public class ItemRepositoryImpl implements ItemRepository {
+//@Repository
+public class ItemRepositoryImpl {
     private final Map<Long, Map<Long,Item>> items = new HashMap<>();
     static private long counter;
 
-    @Override
+    //@Override
     public List<Item> findByUserId(long userId) {
         Map<Long,Item> userItems = items.get(userId);
         return new ArrayList<>(userItems.values());
     }
 
-    @Override
+    //@Override
     public Item save(long userId, Item item) {
         item.setId(++counter);
         Map<Long,Item> userItems = items.get(userId);
@@ -27,7 +27,7 @@ public class ItemRepositoryImpl implements ItemRepository {
         return item;
     }
 
-    @Override
+    //@Override
     public void deleteByUserIdAndItemId(long userId, long itemId) {
         Map<Long,Item> userItems = items.get(userId);
         userItems.remove(itemId);
